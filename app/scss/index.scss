@@ -1,0 +1,104 @@
+$main-font: 'Roboto', sans-serif;
+$description-color: #5d6367;
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+
+
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.main-header {
+	background-color: #eeeeee;
+	margin: 0;
+	.container {
+	display: flex;
+	justify-content: space-between;
+	
+		.main-header__logo {
+			
+		}
+		.main-header__navigation {
+			list-style: none;
+			display: flex;
+			margin-top: 78px;
+			
+			> .item {
+				font-family: 'Roboto', sans-serif;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 30px;
+				color: #3f3f3f;
+				margin-left: 47px;
+				text-transform: uppercase;
+			}
+		}
+	}	.main-header__shopping-cart {
+			margin-top: 78px;
+			text-decoration: none;
+			font-family: 'Roboto', sans-serif; 
+			font-size: 16px;
+			line-height: 30px;
+			font-weight: 700;
+			color: #3f3f3f;
+			text-transform: uppercase;
+			::before {
+			}
+	}
+}
+
+.main-promo {
+	background-color: #eeeeee;
+
+	.main-promo__info {
+		height: 270px;
+		width: 380px;
+		float: left;
+		margin-left: 138px;
+
+		.clearfix {
+		content: "";
+		display: table;
+		clear: both;
+	}
+		.info__title {
+			padding: 0;
+			margin: 0;
+			font-size: 55px;
+			line-height: 55px;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 900;
+		}
+		
+		.info__description {
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+			line-height: 24px;
+			color: #5d6367;
+		}
+		.info__more {
+			width: 240px;
+			height: 50px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 16px;
+			line-height: 16px;
+			color: #ffffff;
+			text-transform: uppercase;
+			font-weight: 500;
+			background-color: #fb565a;
+		}
+
+	}
+
+}	
+
+
+
